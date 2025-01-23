@@ -23,7 +23,7 @@ const greeting = {
   username: "Abhishek",
   title: "Hi all, I'm Abhishek",
   subTitle: emoji(
-    "A passionate Full Stack .NET Developer 🚀 having an experience of building Web application  with DotNet / JavaScript / WebAPI / MicroServices and some other cool libraries and frameworks."
+    "A passionate  Software Developer 🚀 with expertise in building modern web applications using .NET, JavaScript, WebAPI, and Microservices. I thrive on exploring new technologies, frameworks, and tools to craft efficient and scalable solutions.."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1GgOEYCyc7-248HZkU3rxhgpwGnzk9lTIGgU-o1FMioY/edit?usp=sharing", // Set to empty to hide the button
@@ -50,22 +50,37 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY DOT NET FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
+ title: "What I do",
+subTitle: "CRAZY DOT NET FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+skills: [
     emoji(
-      "⚡Develop robust web applications using ASP.NET MVC and ASP.NET Core."
-    ),
-    emoji("⚡Design relational databases using Microsoft SQL Server with Entity Framework Core for ORM."),
-    emoji(
-      "⚡Implement secure user authentication and authorization using ASP.NET Identity."
+      "⚡Develop scalable and robust web applications using ASP.NET MVC, ASP.NET Core, and Entity Framework for seamless data access."
     ),
     emoji(
-      "⚡Deploy and manage applications on Microsoft Azure, leveraging services like Azure App Services, Azure SQL Database, and Azure Blob Storage."
+      "⚡Design and manage efficient relational databases using Microsoft SQL Server, leveraging advanced features of Entity Framework Core for ORM."
     ),
     emoji(
-      "⚡Employ SOLID principles and various design patterns ensuring maintainable and scalable codebase.."
+      "⚡Implement secure and modern web APIs using RestAPI principles with ASP.NET Core, enabling seamless integration and data exchange."
+    ),
+    emoji(
+      "⚡Leverage Microservices architecture with tools like Docker and Kubernetes, ensuring distributed and scalable solutions."
+    ),
+    emoji(
+      "⚡Deploy and monitor cloud-native applications on platforms such as AWS, Microsoft Azure, and OpenShift, utilizing services like Azure App Services and AWS Lambda."
+    ),
+    emoji(
+      "⚡Build responsive front-end applications using React, seamlessly integrating with robust back-end APIs."
+    ),
+    emoji(
+      "⚡Ensure maintainability and scalability by employing SOLID principles and proven design patterns in code architecture."
+    ),
+    emoji(
+      "⚡Optimize server performance and manage deployments with tools like IIS, while ensuring application reliability and uptime."
+    ),
+    emoji(
+      "⚡Integrate C# for writing clean and efficient business logic, enhancing application functionality."
     )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,73 +88,71 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "HTML-5",
-      // fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS3",
-      // fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "DotNet-Core",
-      // fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      // fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "ASP.NET",
-      // fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "WebApiI",
-      // fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "WPF",
-      // fontAwesomeClassname: "fa-brands fa-wpforms"
-    },
-    {
-      skillName: "WebServices",
-      // fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "SQL-Database",
-      // fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Microservices",
-      // fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Raspberry-pi",
-      // fontAwesomeClassname: "fa-brands fa-raspberry-pi"
-    },
-    {
-      skillName: "python",
-      // fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "IIS",
-      // fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Linq Queries",
-      // fontAwesomeClassname: "fab fa-python"
-    },
-    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+      skillName: ".NET",
+      fontAwesomeClassname: "fab fa-microsoft"
+  },
+  {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+  },
+  {
       skillName: "Entity Framework",
-      // fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "ADO.Net",
-      // fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "Azure",
-      // fontAwesomeClassname: "fab fa-docker"
-    }
+      fontAwesomeClassname: "fas fa-project-diagram" // Represents database relationships
+  },
+  {
+      skillName: "SQL (SSMS)",
+      fontAwesomeClassname: "fas fa-database"
+  },
+  {
+      skillName: "C#",
+      fontAwesomeClassname: "fas fa-code"
+  },
+  {
+      skillName: "IIS",
+      fontAwesomeClassname: "fas fa-server"
+  },
+  {
+      skillName: "RestAPI",
+      fontAwesomeClassname: "fas fa-exchange-alt" // Represents API communication
+  },
+  {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+  },
+  {
+      skillName: "LINQ Queries",
+      fontAwesomeClassname: "fas fa-filter" // Represents data filtering and querying
+  },
+  {
+      skillName: "Microservices",
+      fontAwesomeClassname: "fas fa-cubes"
+  },
+  {
+      skillName: "ASP.NET",
+      fontAwesomeClassname: "fas fa-laptop-code"
+  },
+  {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+  },
+  {
+      skillName: "Cloud 2",
+      fontAwesomeClassname: "fas fa-cloud"
+  },
+  {
+      skillName: "OpenShift",
+      fontAwesomeClassname: "fab fa-redhat"
+  },{
+    skillName: "CI/CD Pipeline",
+    fontAwesomeClassname: "fas fa-tools" // Represents development and deployment tools
+},{
+  skillName: "SDLC",
+  fontAwesomeClassname: "fas fa-sync-alt" // Represents process workflows
+}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -177,17 +190,25 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Deployment: Cloud2, AWS, Azure, OpenShift",
       progressPercentage: "80%"
-    }
+  },
+  {
+      Stack: "Backend: WebAPI, SQL, Entity Framework",
+      progressPercentage: "75%"
+  },
+  {
+      Stack: "Programming: C#, LINQ, Python",
+      progressPercentage: "80%"
+  },
+  {
+      Stack: "Frontend: React, JavaScript,.NET",
+      progressPercentage: "70%"
+  },
+  {
+      Stack: "Architecture: Microservices, Docker",
+      progressPercentage: "75%"
+  }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -198,31 +219,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Technology Analyst",
+      company: "Infosys Limited",
+      companylogo: require("./assets/images/Infosys_logo.svg.png"),
+      date: "Jun 2024 –  Present",
+      desc: "Infosys Limited is an Indian multinational technology company that offers business consulting, information technology, and outsourcing services.",
+      descBullets: [
+        "DanskeBank : Regulatory Tracking System",
+      ]
+     },
+    {
       role: "Software Engineer",
       company: "Fidrox Technologies Pvt. Ltd.",
       companylogo: require("./assets/images/fidrox.png"),
-      date: "April 2021 – Present",
+      date: "April 2021 – May 2024",
       desc: "Innovative technologies and systems integration solutions in mobility, security and enterprise collaboration and productivity.",
       descBullets: [
         "Visitor Management - FVmx-500",
         "Identity and Access Management- The process of Employee Authentication forms a very critical part of the security infrastructure.",
         "Canteen Management - Manage contractors from multiple caterer, vendors  in a secure way"
       ]
-    }//,
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+    }
   ]
 };
 
@@ -238,8 +255,21 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Project which I worked on in  Start-up Company ",
+  // subtitle: "Project which I worked on in  Start-up Company ",
   projects: [
+    {
+      image: require("./assets/images/Regulatory-removebg-preview.png"),
+      projectName: "Regulatory Tracking System",
+      projectDesc: "The Regulatory Tracking System is an advanced web tool designed to streamline the monitoring of regulatory developments. Tailored to support the Regulatory Model, this platform enables organizations to efficiently track both current and upcoming regulatory initiatives from Nordic legislators and European authorities. By providing real-time updates and detailed insights, it ensures stakeholders stay informed and compliant with evolving legislative requirements across the region.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+
     {
       image: require("./assets/images/vs.png"),
       projectName: "Visitor Management System",
@@ -255,7 +285,7 @@ const bigProjects = {
     {
       image: require("./assets/images/csm.png"),
       projectName: "Canteen management system",
-      projectDesc: "Canteen management system enables quick cashless transactions and enforces well-structured operational management",
+      projectDesc: "Canteen management system enables quick cashless transactions and enforces well-structured operational management with integration of Raspberry PI 4 & Honeywell HardWare",
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -388,7 +418,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 9036577294",
+  number: "+91 ",
   email_address: "abhi.markundi@gmail.com"
 };
 
