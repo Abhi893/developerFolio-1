@@ -26,7 +26,7 @@ const greeting = {
     "A passionate  Software Developer 🚀 with expertise in building modern web applications using .NET, JavaScript, WebAPI, and Microservices. I thrive on exploring new technologies, frameworks, and tools to craft efficient and scalable solutions.."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1gNHjpkImn2wsam6UTX_WK06K7uxJik-s/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Q-3F-T5BZize1lbyytde53B3p02xopg5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
